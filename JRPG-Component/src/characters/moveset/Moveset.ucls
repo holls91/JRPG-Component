@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <interface id="1" language="java" name="characters.moveset.AbstractMoveset" project="Tesi" 
+    file="/Tesi/src/characters/moveset/AbstractMoveset.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="352" y="91" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="characters.moveset.Moveset" project="Tesi" 
+    file="/Tesi/src/characters/moveset/Moveset.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="349" y="416" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="characters.moveset.Moveset.MovesetIterator" project="Tesi" 
+    file="/Tesi/src/characters/moveset/Moveset.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="675" y="411" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="4">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <realization id="5">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

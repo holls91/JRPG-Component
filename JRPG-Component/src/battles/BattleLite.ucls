@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="battles.Battle" project="Tesi" file="/Tesi/src/battles/Battle.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="348" y="38" width="87" height="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="battles.BattleBehavior" project="Tesi" 
+    file="/Tesi/src/battles/BattleBehavior.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="193" y="104" width="108" height="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="battles.ConcreteBattleBehavior" project="Tesi" 
+    file="/Tesi/src/battles/ConcreteBattleBehavior.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="245" y="218" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="battles.Turn" project="Tesi" file="/Tesi/src/battles/Turn.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="483" y="97" width="87" height="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="battles.ConcreteTurn" project="Tesi" file="/Tesi/src/battles/ConcreteTurn.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position x="526" y="218" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <generalization id="6">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="7">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="8" name="battle">        
+        <position x="303" y="80" width="34" height="18"/>      
+      </attribute>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="10">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="11" name="turn"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
