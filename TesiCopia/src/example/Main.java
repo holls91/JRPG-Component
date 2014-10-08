@@ -90,7 +90,6 @@ public class Main {
 		due.put(pers2);
 		due.setFlag(1);
 		
-		
 		System.out
 				.println("\n-------- Creazione e assegnazione degli Equip --------\n");
 		Equip scarpette = new Equip("Scarpette", EquipType.PIEDI);
